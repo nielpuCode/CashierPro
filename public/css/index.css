@@ -1,0 +1,27 @@
+/* Define the initial scrollbar styles */
+.scrollbar-teal-800::-webkit-scrollbar {
+    width: 10px; /* Initial width */
+    transition: width 0.3s; /* Add transition for width */
+}
+
+/* Define the track styles */
+.scrollbar-teal-800::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+/* Define the thumb styles */
+.scrollbar-teal-800::-webkit-scrollbar-thumb {
+    background-color: #047481; /* Teal-800 color */
+    border-radius: 10px;
+}
+
+/* Adjust the width on hover */
+/* .scrollbar-teal-800:hover::-webkit-scrollbar {
+    width: 15px; 
+} */
+
+.gradient-text {
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
